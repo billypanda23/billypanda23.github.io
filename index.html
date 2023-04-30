@@ -1,11 +1,143 @@
 <!DOCTYPE html>
 <html>
-<body>
+<head>
+<title>今天想什么</title>
+<link rel="icon" type="image/ico" href="images/favicon.png">
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/slideshow.css" />
+<script src="scripts/w3.js"></script>
+<script src="scripts/slideshow.js"></script>
+</head>
 
-<h1>Billy First Heading11</h1>
+<style>
+a:link {text-decoration: none;}
+.inner-content p, .inner-content li{line-height: 180%; font-weight: 400; font-size: 17px;}
+</style>
 
-<p>还是觉得你最好</p>
+<body id="grad">
+<div class="nav">
+	<a href="index.html"><img id="logo" src="images/logo.png"></a>	
+	<input id="show-menu" type="checkbox" role="button">
+	<label for="show-menu" class="show-menu" id="example">菜单</label>
+	<ul id="menu">		
+		<li><a href="index.html">主页</a></li>
+		<li>
+		    <a href="#">文章 <i class="down"></i></a>
+			<ul class="hidden">
+				<li><a href="#">杜韩念</a></li>
+				<li><a href="#">歌词簿</a></li>
+				<li><a href="#">魔术方块</a></li>
+				<li><a href="#">问题与答案</a></li>
+				<!--<li><a href="#">股票</a></li>-->
+			</ul>
+		</li>
+		<li><a href="#">名言</a></li>
+	</ul>
+</div>	
+
+<!-- *** slideshow.css -->
+
+<div class="slideshow-container">
+	<div class="mySlides fade nature">
+	  <div class="numbertext">1 / 2</div>
+	  <img src="images/slides/slides1.png">
+	  <!--<div class="text"><strong>abc</strong> <br />123</div>-->
+	</div>
+	
+	<div class="mySlides fade nature">
+	  <div class="numbertext">1 / 2</div>
+	  <img src="images/slides/slides1.png">
+	  <!--<div class="text"><strong>abc</strong> <br />123</div>-->
+	</div>
+	
+	<div class ="slideArrow">
+	<a class="prev" onclick="myShow.previous()">&#10094;</a>
+	<a class="next" onclick="myShow.next()">&#10095;</a>
+	</div>
+</div>
+
+<script>
+myShow = w3.slideshow(".nature", 8000);
+</script>
+
+<!-- *** -->
+
+<br/>
+<div class="inner-content">
+
+<!--Boundary<-->
+<!--<div class="box">
+	<div class="container">
+		<div class="column"><img src="images/slides/500x500.png" class="image"></div>
+	</div>
+</div>-->
+
+<h2><strong>第一篇</strong></h2>
+<p style="margin-top:0.6em; font-size:12px; color:#999">27/04/2023</p>
+<p style="margin-top:0.6em;";>
+上班途中，经过公园，aunties 个个穿得很漂亮，正在篮球场上练习着舞蹈。<br/>
+那里有一台音响，播放的音乐是一首西洋歌曲 Beautiful in White.<br/><br/>
+
+
+虽然昨晚下了一场雨，但这个早晨阳光明媚，幸福洋溢。<br/>
+有人遛狗、有人散步，也有一群鸽子在游乐场上专注地吃着干粮。<br/><br/>
+
+
+走在我前方的是一位男生，迎面而来的是一名女生。<br/>
+男生突然脚一滑，他竟然没有滑倒，反而灵敏地摆出单膝下跪的姿势。<br/><br/>
+
+
+这突如其来的动作，吓到了我，吓到了前方的女生，也吓到了那群鸽子。<br/>
+一只鸽子起飞，全部跟着飞，掀起了小小的龙卷风，爱情也来得太快了。<br/><br/>
+
+
+本来是一场尴尬，却因为种种巧合，眼前所发生的一切变成了电影情节。<br/><br/>
+
+
+阳光透过叶子给了完美光线，鸽子群飞让周围添加了不少浪漫。<br/>
+背后的情歌让甜蜜弥漫在整个空中，而那女生的出现也刚刚好。<br/><br/>
+
+
+我很想把那瞬间拍下来，不过已经来不及。彼此从惊吓到傻笑后，继续各走各的路。<br/>
+我放慢脚步，随手拍下眼前一幕。希望把这回忆，能记得多少就多少。<br/><br/>
+
+
+当我拿起手机拍下唯一的一张，故事已经切换到另一个场景，画面不再是那男生女生，<br/>
+快门按下那一刻，镜头停留在一对越走越远的老夫老妻。<br/><br/>
+
+
+Not sure if you know this
+But when we first met I got so nervous I couldn't speak<br/>
+
+In that very moment I found the one and 
+My life had found its missing piece
+</p>
+<br/><a href="https://youtu.be/06-XXOTP3Gc?t=14" target="_blank"><strong>Shane Filan 《Beautiful in White》</strong></a>
+
+<div class="clear"></div>
+<br/><hr/><br/>
+
+<!-- *** -->
+
+<!--<h2><strong>第一篇</strong></h2>
+<p style="margin-top:0.6em; font-size:12px; color:#999">30/04/2023</p>
+<p style="margin-top:0.6em";>这不能说他的演技逼真，只能说是“认真”演戏。演戏要的除了认真，还需要感情和感觉。演戏最大的艺术，就是什么都没有演。</p>
+<div class="clear"></div>
+<br/><hr/><br/>-->
+
+</div>
+<div class="footer">
+	<div class="foot">
+		<ul>
+		  <li><a href="index.html">主页</a></li>
+		  <li><a href="#">文章</a></li>
+		  <li><a href="#">名言</a></li>
+		</ul>
+	</div>
+		<div class="copyright">
+		<p>© 2023 by Billy Panda</p>
+		</div>
+</div>
 
 </body>
 </html>
-
