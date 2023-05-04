@@ -10,8 +10,32 @@
 </head>
 
 <style>
-a:link {text-decoration: none;}
+
 .inner-content p, .inner-content li{line-height: 180%; font-weight: 400; font-size: 17px;}
+
+button {
+  float: left;
+  line-height: 150%;
+  font-weight: 500;
+  background-color: #FFBD33;
+  opacity: 30%;
+  color: black;
+  border: 0px solid #555555;
+  padding: 15px 32px;
+  text-align: left;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	opacity: 100%;
+}
+
+audio {
+float: left;}
 </style>
 
 <body id="grad">
@@ -103,19 +127,32 @@ myShow = w3.slideshow(".nature", 8000);
 
 
 当拿起手机拍下唯一的一张，故事已经切换到不同场景，画面不再是那男生女生。<br/>
-按下快门，镜头停留在一对越走越远的老夫老妻。<a href="images/misc/park.png" target="_blank">照片</a><br/><br/>
-
-
-<strong style="margin-top:0.6em; font-size:15px; color:#5e4c19">Not sure if you know this<br/>
-But when we first met I got so nervous I couldn't speak<br/><br/>
-
-In that very moment I found the one and <br/>
-My life had found its missing piece</strong>
-</p>
-<br/><a href="https://youtu.be/06-XXOTP3Gc?t=14" target="_blank"><strong>Shane Filan 《Beautiful in White》</strong></a>
+按下快门，镜头停留在一对渐行渐远的老夫老妻。<a href="images/misc/park.png" target="_blank"><strong>照片</strong></a><br/><br/>
 
 <div class="clear"></div>
-<br/><hr/><br/>
+
+<!-- *** -->
+
+<!--<audio> tag can only retrieve mp3 in local folder-->
+<button onclick="settime()" title="Shane Filan - Beautiful in White">Not sure if you know this</br>
+But when we first met I got so nervous I couldn't speak</br></br>
+In that very moment I found the one and</br>
+My life had found its missing piece</button>
+
+</br></br></br></br></br></br></br></br>
+
+<audio controls id="myaudio" src="audio/Beautiful in White.mp3"></audio>
+
+<script type="text/javascript">  
+    function settime(){
+      var audio= document.getElementById("myaudio");
+      audio.currentTime=13.7;
+      audio.play();      
+    }
+</script>
+
+<br/><br/><br>
+<hr/>
 
 <!-- *** -->
 
@@ -139,7 +176,7 @@ My life had found its missing piece</strong>
 		</div>
 </div>
 
-<a href="#" title="#"><img src="https://counter2.optistats.ovh/private/freecounterstat.php?c=pb2h559yzcm522438kk4yt4ha84ner7l" border="0" title="" alt="#"></a>
+<!--<a href="#" title="#"><img src="https://counter2.optistats.ovh/private/freecounterstat.php?c=pb2h559yzcm522438kk4yt4ha84ner7l" border="0" title="" alt="#"></a>-->
 
 </body>
 </html>
