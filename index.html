@@ -6,11 +6,16 @@
 <link rel="icon" type="image/ico" href="images/favicon.png">
 <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="css/slideshow.css" />
+<link rel="stylesheet" href="css/dropdown.css" />
 <script src="scripts/w3.js"></script>
 <script src="scripts/slideshow.js"></script>
 </head>
 
 <style>
+html {
+  scroll-behavior: smooth;
+}
+
 .inner-content p, .inner-content li{line-height: 180%; font-weight: 400; font-size: 17px;}
 
 button {
@@ -51,9 +56,9 @@ audio {
 	<ul id="menu">		
 		<li><a href="index.html">主页</a></li>
 		<li>
-		    <a href="#">文章 <i class="down"></i></a>
+		    <a href="#">收藏 <i class="down"></i></a>
 			<ul class="hidden">
-				<li><a href="#">杜韩念</a></li>
+				<li><a href="dhn.html">杜韩念</a></li>
 				<li><a href="#">歌词簿</a></li>
 				<li><a href="#">魔术方块</a></li>
 				<li><a href="#">问题与答案</a></li>
@@ -93,8 +98,31 @@ myShow = w3.slideshow(".nature", 8000);
 
 <br/>
 <div class="inner-content">
+<h3 style="text-align:center; cursor:pointer" class="jumpTo" onclick="openNav()"><strong>目录</strong></h3>
+</br><hr/></br>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="font-size:30px">&times;</a>
+
+  <button class="dropdown-btn">2023</button>
+  <div class="dropdown-container">
+  	<small><a href="#第一篇" class="w3-animate-zoom">第一篇</a></small>
+	<small><a href="#第二篇" class="w3-animate-zoom">第二篇</a></small>
+	<br/>
+  </div>
+ </div> 
+ 
+<script src="scripts/scrollTop.js"></script>
+<script src="scripts/dropDown.js"></script>
+<script src="scripts/sideNavigation.js"></script>
+
+<div class="topPosition">
+<button onclick="topFunction()" id="myBtn" title="回到现在">别迷恋过去</button>
+</div>
+
+<!-- CONTENT START HERE -->
 <!--Boundary<-->
-<h3><strong>第二篇</strong></h3>
+<h3><strong id="第二篇">第二篇</strong></h3>
 <p style="margin-top:0.6em; font-size:12px; color:#999">02/05/2023</p>
 <p style="margin-top:0.6em;";>
 同事告知确诊新冠，所以我临时代对方去了一个 onsite.</br>
@@ -161,7 +189,7 @@ Mplus Online 是马来西亚其中一个买卖股票平台。</br></br>
 <!-- *** -->
 
 <!--Boundary<-->
-<h3><strong>第一篇</strong></h3>
+<h3><strong id="第一篇">第一篇</strong></h3>
 <p style="margin-top:0.6em; font-size:12px; color:#999">27/04/2023</p>
 <p style="margin-top:0.6em;";>
 上班途中，经过公园，安娣个个穿得漂亮，在篮球场进行舞蹈排练。<br/>
@@ -232,7 +260,7 @@ My life had found its missing piece</button>
 	<div class="foot">
 		<ul>
 		  <li><a href="index.html">主页</a></li>
-		  <li><a href="#">文章</a></li>
+		  <li><a href="#">收藏</a></li>
 		  <li><a href="#">名言</a></li>
 		</ul>
 	</div>
