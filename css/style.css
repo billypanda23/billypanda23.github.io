@@ -226,5 +226,5 @@ h1, h2, h3{font-weight:normal}
 .foot ul{margin: 0 auto; padding-top: 10px; text-align: center;}
 .foot ul li{text-decoration: none; display: inline-block;}
 .foot ul li a{padding: 0 20px; color: #616161; font-weight: 500;}
-.foot ul li a:hover{color: orange; text-decoration: none;}
+.foot ul li a:hover{color: #8000ff; text-decoration: none;}
 .copyright{margin: 0 auto; padding-top: 10px; text-align: center; color: #616161;}
