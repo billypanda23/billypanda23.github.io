@@ -43,6 +43,7 @@
 /*.sidenav a, .dropdown-btn {*/
 .dropdown-btn {
     padding: 6px 8px 6px 16px;
+	border-radius: 0px !important;
     text-decoration: none;
     font-size: 20px;
     color: white;
@@ -63,7 +64,7 @@
 
 /* Add an active class to the active dropdown button */
 .active {
-    background-color: #8000ff; /*purple*/
+    background-color: #585c63; /*nekocolor*/
     color: white;
 }
 
