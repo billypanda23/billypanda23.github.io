@@ -29,7 +29,7 @@ body{
 #menu{padding-left: 100px;}
 #logo{float: left; height: 55px;}
 #whatslogo{float: right; height: 50px;}
-#grad{background-image: linear-gradient(to bottom, #E6EDF6, #FFEFEF);}
+#grad{background-image: linear-gradient(to right, #ffdca2, #edf8c9);}
 
 .nav{width: 100%; max-width: 1200px; margin: 0 auto; padding-top: 10px; padding-bottom: 10px; background: transparent; font-size: 17px; z-index:1; height:50px; position: relative;}
 
