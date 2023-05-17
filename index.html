@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh">
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
-
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-JFFFC06D9Q"></script>
 <script>
@@ -14,7 +14,7 @@
 </script>
 
 <title>今天想什么</title>
-<link rel="icon" type="image/ico" href="images/favicon.png">
+<link rel="icon" type="image/ico" href="images/favicon.ico">
 <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="css/slideshow.css" />
 <link rel="stylesheet" href="css/dropdown.css" />
@@ -23,13 +23,15 @@
 </head>
 
 <style>
-html {
-  scroll-behavior: smooth;
-}
-
-.inner-content p, .inner-content li{line-height: 180%; font-weight: 400; font-size: 17px;}
+html {scroll-behavior: smooth;}
 
 a:hover {text-decoration: none;}
+
+.inner-content p, .inner-content li {
+	line-height: 180%;
+	font-weight: 400;
+	font-size: 17px;
+}
 
 button {
 	float: left;
@@ -63,7 +65,7 @@ audio {
 
 <body id="grad">
 <div class="nav">
-	<a href="index.html"><img id="logo" src="images/logo.png"></a>	
+	<a href="index.html"><img id="logo" src="images/logo.png" alt="logo"></a>	
 	<input id="show-menu" type="checkbox" role="button">
 	<label for="show-menu" class="show-menu" id="example">菜单</label>
 	<ul id="menu">		
@@ -83,23 +85,15 @@ audio {
 </div>	
 
 <!-- *** slideshow.css -->
-
 <div class="slideshow-container">
 	<div class="mySlides fade nature">
 	  <div class="numbertext">1 / 2</div>
-	  <img src="images/slides/slides1.png">
-	  <!--<div class="text"><strong>abc</strong> <br />123</div>-->
+	  <img src="images/slides/slides1.png" alt="做一个有价值的人">
 	</div>
 	
 	<div class="mySlides fade nature">
 	  <div class="numbertext">1 / 2</div>
-	  <img src="images/slides/slides1.png">
-	  <!--<div class="text"><strong>abc</strong> <br />123</div>-->
-	</div>
-	
-	<div class ="slideArrow">
-	<a class="prev" onclick="myShow.previous()">&#10094;</a>
-	<a class="next" onclick="myShow.next()">&#10095;</a>
+	  <img src="images/slides/slides1.png" alt="做一个有价值的人">
 	</div>
 </div>
 
@@ -108,7 +102,6 @@ myShow = w3.slideshow(".nature", 8000);
 </script>
 
 <!-- *** -->
-
 <br/>
 <div class="inner-content">
 <h3 style="text-align:center; cursor:pointer" class="jumpTo" onclick="openNav()"><strong>目录</strong></h3>
@@ -143,7 +136,7 @@ myShow = w3.slideshow(".nature", 8000);
 
 
 信用卡快到期了，还在想着要怎么去更新。<br>
-但原来不需要做些什么，它自动会寄过来，就在到期的前一、两个月。<br><br>
+但原来不需要做些什么，它自动会寄过来，就在到期前的一、两个月。<br><br>
 
 
 我一直坚持不要下载 MAE app. 还有它的 Maybank Classic 网站，也是一直用到不能用为止才转去新的网页。<br>
@@ -154,7 +147,7 @@ myShow = w3.slideshow(".nature", 8000);
 RFID 的用意很好，可我就是没有去安装，还是在用着很 old school 的一触即通卡，总觉得时辰未到，到了才打算。<br><br>
 
 
-下载 MAE app 是因为要启动新的信用卡。第一次看到它的 interface，五颜六色，很多陌生按钮，让我莫名心花怒放。<br>
+下载 MAE app 是因为要启动新的信用卡。第一次看到它的 interface，五颜六色，很多陌生按钮，让我心花怒放。<br>
 好像一只猫，发现地上有一只螳螂，开始感到好奇，会忍不住伸出右手，想去触碰那只怪物，但同时又害怕会按到什么出来。<br><br>
 
 
@@ -189,7 +182,7 @@ RFID 的用意很好，可我就是没有去安装，还是在用着很 old scho
 <br/><br/><br></br>
 <hr/></br>
 
-<!--Boundary<-->
+<!--***-->
 <h3><strong id="第三篇">第三篇</strong></h3>
 <p style="margin-top:0.6em; font-size:12px; color:#999">09/05/2023</p>
 <p style="margin-top:0.6em;";>
@@ -278,7 +271,7 @@ RFID 的用意很好，可我就是没有去安装，还是在用着很 old scho
 <br/><br/><br></br>
 <hr/></br>
 
-<!--Boundary<-->
+<!--***-->
 <h3><strong id="第二篇">第二篇</strong></h3>
 <p style="margin-top:0.6em; font-size:12px; color:#999">02/05/2023</p>
 <p style="margin-top:0.6em;";>
@@ -341,7 +334,7 @@ Mplus Online 是马来西亚其中一个买卖股票平台。</br></br>
 <br/><br/><br></br>
 <hr/></br>
 
-<!--Boundary<-->
+<!--***-->
 <h3><strong id="第一篇">第一篇</strong></h3>
 <p style="margin-top:0.6em; font-size:12px; color:#999">27/04/2023</p>
 <p style="margin-top:0.6em;";>
@@ -399,15 +392,7 @@ My life had found its missing piece</button>
 
 <br/><br/><br></br>
 <hr/>
-
 <!-- *** -->
-
-<!--<h2><strong>第一篇</strong></h2>
-<p style="margin-top:0.6em; font-size:12px; color:#999">30/04/2023</p>
-<p style="margin-top:0.6em";>这不能说他的演技逼真，只能说是“认真”演戏。演戏要的除了认真，还需要感情和感觉。演戏最大的艺术，就是什么都没有演。</p>
-<div class="clear"></div>
-<br/><hr/><br/>-->
-
 </div>
 <div class="footer">
 	<div class="foot">
@@ -421,8 +406,5 @@ My life had found its missing piece</button>
 		<p>© 2023 by Billy Panda</p>
 		</div>
 </div>
-
-<!--<a href="#" title="#"><img src="https://counter2.optistats.ovh/private/freecounterstat.php?c=pb2h559yzcm522438kk4yt4ha84ner7l" border="0" title="" alt="#"></a>-->
-
 </body>
 </html>

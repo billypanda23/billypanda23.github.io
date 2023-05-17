@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh">
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
-
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-JFFFC06D9Q"></script>
 <script>
@@ -14,7 +14,7 @@
 </script>
 
 <title>杜韩念</title>
-<link rel="icon" type="image/ico" href="images/favicon.png">
+<link rel="icon" type="image/ico" href="images/favicon.ico">
 <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="css/slideshow.css" />
 <link rel="stylesheet" href="css/dropdown.css" />
@@ -23,17 +23,22 @@
 </head>
 
 <style>
-html {
-  scroll-behavior: smooth;
+html {scroll-behavior: smooth;}
+
+.inner-content p, .inner-content li {
+	line-height: 180%;
+	font-weight: 400;
+	font-size: 17px;
 }
 
-.inner-content p, .inner-content li{line-height: 180%; font-weight: 400; font-size: 17px;}
-a:hover{color: #8000ff; text-decoration: none;}
+a:hover {color: #8000ff;
+text-decoration: none;
+}
 </style>
 
 <body id="grad">
 <div class="nav">
-	<a href="index.html"><img id="logo" src="images/logo.png"></a>	
+	<a href="index.html"><img id="logo" src="images/logo.png" alt="logo"></a>	
 	<input id="show-menu" type="checkbox" role="button">
 	<label for="show-menu" class="show-menu" id="example">菜单</label>
 	<ul id="menu">		
@@ -53,23 +58,15 @@ a:hover{color: #8000ff; text-decoration: none;}
 </div>	
 
 <!-- *** slideshow.css -->
-
 <div class="slideshow-container">
 	<div class="mySlides fade nature">
 	  <div class="numbertext">1 / 2</div>
-	  <img src="images/slides/writing.png">
-	  <!--<div class="text"><strong>abc</strong> <br />123</div>-->
+	  <img src="images/slides/writing.png" alt="杜韩念">
 	</div>
 	
 	<div class="mySlides fade nature">
 	  <div class="numbertext">1 / 2</div>
 	  <img src="images/slides/writing.png">
-	  <!--<div class="text"><strong>abc</strong> <br />123</div>-->
-	</div>
-	
-	<div class ="slideArrow">
-	<a class="prev" onclick="myShow.previous()">&#10094;</a>
-	<a class="next" onclick="myShow.next()">&#10095;</a>
 	</div>
 </div>
 
@@ -78,7 +75,6 @@ myShow = w3.slideshow(".nature", 8000);
 </script>
 
 <!-- *** -->
-
 <br/>
 <div class="inner-content">
 <h3 style="text-align:center; cursor:pointer" class="jumpTo" onclick="openNav()"><strong>目录</strong></h3>
@@ -103,7 +99,6 @@ myShow = w3.slideshow(".nature", 8000);
 </div>
 
 <!-- CONTENT START HERE -->
-<!--Boundary<-->
 <p style="margin-top:0.6em;";>以下文章采自 <strong><a href="https://www.facebook.com/people/杜韩念/100044264867892/" target="_blank">杜韩念脸书</strong></a></br></br></p>
 <h3><strong id="动物园">动物园</strong></h3>
 <p style="margin-top:0.6em; font-size:12px; color:#999">27/11/2022</p>
@@ -173,14 +168,8 @@ myShow = w3.slideshow(".nature", 8000);
 <br/></br><hr/></br>
 <div class="clear"></div>
 
-<!-- *** -->
-
-<!--Boundary<-->
-
 <br/><hr/>
-
 <!-- *** -->
-
 </div>
 <div class="footer">
 	<div class="foot">
@@ -194,8 +183,5 @@ myShow = w3.slideshow(".nature", 8000);
 		<p>© 2023 by Billy Panda</p>
 		</div>
 </div>
-
-<!--<a href="#" title="#"><img src="https://counter2.optistats.ovh/private/freecounterstat.php?c=pb2h559yzcm522438kk4yt4ha84ner7l" border="0" title="" alt="#"></a>-->
-
 </body>
 </html>
