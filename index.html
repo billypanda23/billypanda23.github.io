@@ -18,8 +18,12 @@
 <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="css/slideshow.css" />
 <link rel="stylesheet" href="css/dropdown.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat">
+<link rel="stylesheet" href="fonts/STKAITI.ttf">
 <script src="scripts/w3.js"></script>
 <script src="scripts/slideshow.js"></script>
+
 </head>
 
 <style>
@@ -31,30 +35,6 @@ a:hover {text-decoration: none;}
 	line-height: 180%;
 	font-weight: 400;
 	font-size: 17px;
-}
-
-button {
-	float: left;
-	line-height: 150%;
-	font-weight: 500;
-	background-color: #FFBD33;
-	opacity: 30%;
-	color: black;
-	border: 0px solid #555555;
-	padding: 15px 32px;
-	text-align: left;
-	font-size: 17px;
-	cursor: pointer;
-	border-radius: 8px;
-	transition: 0.5s;
-	width: auto;
-	display: block;
-	margin-bottom: 10px;
-}
-
-button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-	opacity: 100%;
 }
 
 audio {
@@ -116,6 +96,7 @@ myShow = w3.slideshow(".nature", 8000);
 	<small><a href="#第二篇" class="w3-animate-zoom">第二篇</a></small>
 	<small><a href="#第三篇" class="w3-animate-zoom">第三篇</a></small>
 	<small><a href="#第四篇" class="w3-animate-zoom">第四篇</a></small>
+	<small><a href="#第五篇" class="w3-animate-zoom">第五篇</a></small>
 	<br/>
   </div>
  </div> 
@@ -129,9 +110,54 @@ myShow = w3.slideshow(".nature", 8000);
 </div>
 
 <!-- CONTENT START HERE -->
+<h3><strong id="第五篇">第五篇</strong></h3>
+<p style="margin-top:0.6em; font-size:1rem; color:#999">17/05/2023</p><br>
+<p style="margin-top:0;">
+今天同事被关在电梯里，但是她还可以一直 whatsapp 出来。我好奇问了她用什么牌子的手机，她说是小米。<br>如果那时她说的不是小米，我希望她被关多十分钟。幸好她用的是小米，所以永远相信美好的事情即将发生。很快的，她就出来了。<br><br>
+
+
+雷军是小米的 CEO. 我第一次听到他的名字，应该是在两年前左右，小米换 logo 的那个时候。他在发布会上说，“小米用了几年时间，花费百万，终于有了新 logo.” 其实那 logo 没什么大改，就只是从一个正方形变去圆形，就这样我开始认识了他。<br><br>
+
+
+比较真正了解雷军是最近的事，前两个星期刚看完他口述的一本书《小米创业思考》，里面提到了许多关于小米一路走来的故事。今早的事件，提醒我要快点写出那个感想，如果再不写，时间久了，转眼就会忘，肯定会忘。昨天吃了什么，我已经不记得。所以唯一能中止遗忘的是，立刻抽出时间，把它写下来。<br><br>
+
+
+在那本书，小米有一个方法论特别影响我，尤其是雷军解释的那个范例：无论多么复杂的事情，都有一个原点。比如，他们不懂得做硬件，就先从软件干起。操作系统很复杂，没关系，他们在开源系统上做；开源也很复杂，没关系；他们找了当时智能手机最重要的几个功能开始干。<br><br>
+
+
+经过认真研究和讨论，他们发现，在智能手机刚起步的当下，打电话、发短信、通讯录和桌面是人们最常用的功能，他们只要集中精力，专注把这 4 个核心功能模块做好做透就行。一个极其复杂的系统就这样被他们高度简化了。所以，当遇到复杂的问题时，对工程师而言，甚至我们每个人，最重要的是先找到“第一扳手”，将复杂工程高度简化是一项非常重要的能力。</p><br><br>
+
+<button onclick="document.getElementById('id01').style.display='block'" class="buttonGeneral buttonBtoW centerbuttonBtoW googleCaveat">Make it as simple as possible, but not simpler. ~ Albert Einstein</button>
+	<div id="id01" class="w3-modal w3-animate-opacity" onclick="this.style.display='none'">
+      <img src="images/modal/yyxx.png" style="max-width:100%;" class="w3-display-middle w3-card-4" alt="永远相信美好的事情即将发生"> 
+	</div>
+
+<div class="clear"></div>
+
+<!--<audio> tag can only retrieve mp3 in local folder-->
+<button onclick="settime5()" title="林俊杰 - 简简单单" class="buttonLyric stkaiti">我摊开了双手&nbsp;&nbsp;&nbsp;妳予取予求&nbsp;&nbsp;&nbsp;直到妳想自由&nbsp;&nbsp;&nbsp;痛苦的时候我不会闪躲&nbsp;&nbsp;&nbsp;就像树叶甘心为春风吹落</br>
+</button>
+
+</br></br></br></br>
+
+<audio controls id="myaudio5" src="audio/简简单单.mp3"></audio>
+
+<script type="text/javascript">  
+    function settime5(){
+      var audio= document.getElementById("myaudio5");
+      audio.currentTime=53;
+      audio.play();      
+    }
+</script>
+
+<br/><br/><br></br>
+<hr/></br>
+
+<!--***-->
+
 <h3><strong id="第四篇">第四篇</strong></h3>
-<p style="margin-top:0.6em; font-size:12px; color:#999">11/05/2023</p>
-<p style="margin-top:0.6em;";>
+<p style="margin-top:0.6em; font-size:1rem; color:#999">11/05/2023</p><br>
+<p style="margin-top:0;">
 我不是一个喜欢尝试新东西的人，除非逼不得已。<br><br>
 
 
@@ -159,12 +185,12 @@ RFID 的用意很好，可我就是没有去安装，还是在用着很 old scho
 我透过 Shopee 做了一个实验，把新的和旧的卡都 add 进去。还以为旧的会失效，它却通过了。我错了，但是懂了。<br><br>
 
 
-有些事情，需要证明。不然，我的以为，只是我以为。<br><br>
+有些事情，需要证明。不然，我的以为，只是我以为。</p><br><br>
 
 <div class="clear"></div>
 
 <!--<audio> tag can only retrieve mp3 in local folder-->
-<button onclick="settime4()" title="品冠 - 我以为">我以为终究妳会慢慢明白&nbsp;&nbsp;&nbsp;他的心&nbsp;&nbsp;&nbsp;已不在妳身上&nbsp;&nbsp;&nbsp;我的关心&nbsp;&nbsp;&nbsp;妳依然无动于衷</br>
+<button onclick="settime4()" title="品冠 - 我以为" class="buttonLyric stkaiti">我以为终究妳会慢慢明白&nbsp;&nbsp;&nbsp;他的心&nbsp;&nbsp;&nbsp;已不在妳身上&nbsp;&nbsp;&nbsp;我的关心&nbsp;&nbsp;&nbsp;妳依然无动于衷</br>
 </button>
 
 </br></br></br></br>
@@ -184,8 +210,8 @@ RFID 的用意很好，可我就是没有去安装，还是在用着很 old scho
 
 <!--***-->
 <h3><strong id="第三篇">第三篇</strong></h3>
-<p style="margin-top:0.6em; font-size:12px; color:#999">09/05/2023</p>
-<p style="margin-top:0.6em;";>
+<p style="margin-top:0.6em; font-size:1rem; color:#999">09/05/2023</p><br>
+<p style="margin-top:0;">
 最近，我想知道自己从什么时候开始 follow <a href="dhn.html">杜韩念</a>。</br>
 上网查一查，面子书可以找回那些 activity history.</br></br>
 
@@ -245,15 +271,15 @@ RFID 的用意很好，可我就是没有去安装，还是在用着很 old scho
 如果你一直很投入地在做自己喜欢做的事情，抑或在个人操作恰当的前提之下运转得快，你的地球时间很可能是 100 岁或是某一个数目，它绝不会少于五十，更不会很表面的，在别人眼中只活了半个世纪。</br></br>
 
 
-“生命不在长度，而在厚度”，第一次听的时候，我没真正明白。</br>
-但现在，至少可以从另一个维度去思考，它所要带出来的信息。</br></br>
+“生命不在长度，而在厚度”，第一次听的时候，我没真正听明白。</br>
+现在已经可以从另一个维度，去思考它所要带出来的信息。</br></br>
 
-<a href="https://medium.com/swlh/the-secret-to-a-longer-and-happier-life-is-hidden-in-einsteins-theory-of-relativity-85bc2e07ce48" target="_blank">这是我读过的那篇文章</a></br></br>
+<a href="https://medium.com/swlh/the-secret-to-a-longer-and-happier-life-is-hidden-in-einsteins-theory-of-relativity-85bc2e07ce48" target="_blank">这是我读过的那篇文章</a></p></br><br>
 
 <div class="clear"></div>
 
 <!--<audio> tag can only retrieve mp3 in local folder-->
-<button onclick="settime3()" title="李圣杰 - 光年">爱你穿越几千个光年&nbsp;&nbsp;&nbsp;一直到每个世纪末终点&nbsp;&nbsp;&nbsp;一份挚爱&nbsp;&nbsp;&nbsp;一句誓言&nbsp;&nbsp;&nbsp;我会想着你&nbsp;&nbsp;&nbsp;在每一天</br>
+<button onclick="settime3()" title="李圣杰 - 光年" class="buttonLyric stkaiti">爱你穿越几千个光年&nbsp;&nbsp;&nbsp;一直到每个世纪末终点&nbsp;&nbsp;&nbsp;一份挚爱&nbsp;&nbsp;&nbsp;一句誓言&nbsp;&nbsp;&nbsp;我会想着你&nbsp;&nbsp;&nbsp;在每一天</br>
 </button>
 
 </br></br></br></br>
@@ -273,8 +299,8 @@ RFID 的用意很好，可我就是没有去安装，还是在用着很 old scho
 
 <!--***-->
 <h3><strong id="第二篇">第二篇</strong></h3>
-<p style="margin-top:0.6em; font-size:12px; color:#999">02/05/2023</p>
-<p style="margin-top:0.6em;";>
+<p style="margin-top:0.6em; font-size:1rem; color:#999">02/05/2023</p><br>
+<p style="margin-top:0;">
 同事告知确诊新冠，所以我临时代对方去了一个 onsite.</br>
 是自己快忘了新冠这件事，还是新冠已经是很 2020 的事。</br></br>
 
@@ -311,12 +337,12 @@ Mplus Online 是马来西亚其中一个买卖股票平台。</br></br>
 
 
 故事完了。男生也完事了。</br>
-总觉得还没开始就已经结束，时间过得好快。</br></br>
+总觉得还没开始就已经结束，时间过得好快。</p></br><br>
 
 <div class="clear"></div>
 
 <!--<audio> tag can only retrieve mp3 in local folder-->
-<button onclick="settime2()" title="张学友 - 讲你知">光阴可以瞬间转数十年&nbsp;&nbsp;&nbsp;生死起跌也知不会幸免&nbsp;&nbsp;&nbsp;当中只有爱的感觉未曾变</br>
+<button onclick="settime2()" title="张学友 - 讲你知" class="buttonLyric stkaiti">光阴可以瞬间转数十年&nbsp;&nbsp;&nbsp;生死起跌也知不会幸免&nbsp;&nbsp;&nbsp;当中只有爱的感觉未曾变</br>
 </button>
 
 </br></br></br></br>
@@ -336,8 +362,8 @@ Mplus Online 是马来西亚其中一个买卖股票平台。</br></br>
 
 <!--***-->
 <h3><strong id="第一篇">第一篇</strong></h3>
-<p style="margin-top:0.6em; font-size:12px; color:#999">27/04/2023</p>
-<p style="margin-top:0.6em;";>
+<p style="margin-top:0.6em; font-size:1rem; color:#999">27/04/2023</p><br>
+<p style="margin-top:0;">
 上班途中，经过公园，安娣个个穿得漂亮，在篮球场进行舞蹈排练。<br/>
 那里有一台音响，播放的音乐是一首西洋歌曲 Beautiful in White.<br/><br/>
 
@@ -366,17 +392,14 @@ Mplus Online 是马来西亚其中一个买卖股票平台。</br></br>
 
 
 当拿起手机拍下唯一的一张，故事已经切换到不同场景，画面不再是那男生女生。<br/>
-按下快门，镜头停留在一对渐行渐远的老夫老妻。<a href="images/misc/park.png" target="_blank">照片</a><br/><br/>
+按下快门，镜头停留在一对渐行渐远的老夫老妻。<a href="images/misc/park.png" target="_blank">照片</a></p><br/><br>
 
 <div class="clear"></div>
 
 <!-- *** -->
 
 <!--<audio> tag can only retrieve mp3 in local folder-->
-<button onclick="settime1()" title="Shane Filan - Beautiful in White">Not sure if you know this</br>
-But when we first met I got so nervous I couldn't speak</br></br>
-In that very moment I found the one and</br>
-My life had found its missing piece</button>
+<button onclick="settime1()" title="Shane Filan - Beautiful in White" class="buttonLyric YRDZST">Not sure if you know this<br>But when we first met I got so nervous I couldn't speak<br><br>In that very moment I found the one and<br>My life had found its missing piece</button>
 
 </br></br></br></br></br></br></br></br><br/>
 

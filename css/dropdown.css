@@ -1,20 +1,20 @@
-/*-------------------------------------------------------------------Next is Other Part---------------------------------------------------------------------------------------*/
-.topPosition{
-	position:sticky; 
+/*Next*/
+.topPosition {
+	position: sticky; 
 	position: -webkit-sticky; 
-	float:right; 
-	top:0; 
-	width:30px; 
-	padding:10px 20px; 
-	background:none; 
-	border-style:hidden; 
-	border-width:thin; 
+	float: right; 
+	top: 0; 
+	width: 30px; 
+	padding: 10px 20px; 
+	background: none; 
+	border-style: hidden; 
+	border-width: thin; 
 	border-color: #000
 }
 
 #myBtn {
-  position:relative;
-  right:30px;
+  position: relative;
+  right: 30px;
   display: none;
   z-index: 99;
   font-size: 18px;
@@ -25,14 +25,14 @@
   cursor: pointer;
   padding: 15px;
   border-radius: 40px;
-  opacity:0.3;
+  opacity: 0.3;
 }
 
 #myBtn:hover {
   opacity:1;
 }
 
-/*-------------------------------------------------------------------Next is Other Part---------------------------------------------------------------------------------------*/
+/*Next*/
 .jumpTo:hover {
     color: #8000ff;
 
@@ -118,4 +118,4 @@
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-/*-------------------------------------------------------------------Next is Other Part---------------------------------------------------------------------------------------*/
+/*Next*/

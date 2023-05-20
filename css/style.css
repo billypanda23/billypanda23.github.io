@@ -229,3 +229,84 @@ h1, h2, h3{font-weight:normal}
 .foot ul li a{padding: 0 20px; color: #616161; font-weight: 500;}
 .foot ul li a:hover{color: #8000ff; text-decoration: none;}
 .copyright{margin: 0 auto; padding-top: 10px; text-align: center; color: #616161;}
+
+
+/*NEW CSS added on 20/05/2023*/
+.w3-display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.w3-modal{z-index:3;display:none;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
+
+.w3-card,.w3-card-2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+.w3-card-4,.w3-hover-shadow:hover{box-shadow:0 40px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
+
+.w3-spin{animation:w3-spin 2s infinite linear}@keyframes w3-spin{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}
+.w3-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+.w3-animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.w3-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+.w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+.w3-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+.w3-animate-zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+
+/* Four classes below are used together */
+.buttonGeneral{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buttonBtoW{
+  background-color: white;
+  color: black;
+  border: 1px solid #555555;
+  margin-bottom: 20px;
+}
+
+.buttonBtoW:hover{
+  background-color: #555555;
+  color: white;
+}
+
+.centerbuttonBtoW{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Two classes below are used together */
+.buttonLyric{
+	float: left;
+	line-height: 150%;
+	font-weight: 500;
+	background-color: #FFBD33;
+	opacity: 30%;
+	color: black;
+	border: 0px solid #555555;
+	padding: 15px 32px;
+	text-align: center;
+	font-size: 17px;
+	cursor: pointer;
+	border-radius: 8px;
+	transition: 0.5s;
+	width: 100%;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.buttonLyric:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	opacity: 100%;
+}
+
+.googleAudioWide{font-family: "Audiowide", sans-serif;}
+.googleCaveat{font-family: 'Caveat', cursive; font-size: 1.7rem;}
+.stkaiti{font-family: 'STKAITI'; font-size: 1.3rem; font-weight: 600;}
+
