@@ -318,7 +318,7 @@ h1, h2, h3{font-weight:normal}
 .googleCaveat{font-family: 'Caveat', cursive; font-size: 23px;}
 
 /*https://transfonter.org - Online @font-face generator — Transfonter
-Upload the ttf and convert to font-face, it will generate a set of css.*/
+Upload the ttf and convert to font-face, it will generate a set of css.
 
 @font-face {
     font-family: 'STKaiti';
@@ -328,7 +328,7 @@ Upload the ttf and convert to font-face, it will generate a set of css.*/
     font-style: normal;
     font-display: swap;
 }
-.stkaiti{font-family: 'STKaiti'; font-size: 17px; font-weight: 600;}
+.stkaiti{font-family: 'STKaiti'; font-size: 17px; font-weight: 600;}*/
 
 @font-face {
     font-family: 'YRDZST';
