@@ -31,7 +31,7 @@ audio {width: 100%;}
 
 <body id="grad">
 <div class="nav">
-	<a href="index.html"><img id="logo" src="images/logo.png" alt="logo"></a>	
+	<a href="index.html"><img id="logo" src="images/logo.webp" alt="logo"></a>	
 	<input id="show-menu" type="checkbox" role="button">
 	<label for="show-menu" class="show-menu" id="example">菜单</label>
 	<ul id="menu">		
@@ -338,6 +338,10 @@ Mplus Online 是马来西亚其中一个买卖股票平台。</br></br>
 
 <button onclick="settime2()" title="张学友 - 讲你知" class="buttonLyric stkaiti">光阴可以瞬间转数十年&nbsp;&nbsp;&nbsp;生死起跌也知不会幸免&nbsp;&nbsp;&nbsp;当中只有爱的感觉未曾变</br>
 </button>
+
+<div id="jacky" class="w3-modal w3-animate-opacity" onclick="this.style.display='none'">
+	<img src="images/modal/jacky.webp" style="max-width:70%; opacity:0.9" class="w3-display-middle" alt="林俊杰">
+</div>
 	
 </br></br></br></br>
 
@@ -347,7 +351,8 @@ Mplus Online 是马来西亚其中一个买卖股票平台。</br></br>
     function settime2(){
       var audio= document.getElementById("myaudio2");
       audio.currentTime=194;
-      audio.play(); 
+      audio.play();
+	  document.getElementById('jacky').style.display='block'     	  
     }
 </script>
 
@@ -390,7 +395,7 @@ Mplus Online 是马来西亚其中一个买卖股票平台。</br></br>
 
 
 当拿起手机拍下唯一的一张，故事已经切换到不同场景，画面不再是那男生女生。<br/>
-按下快门，镜头停留在一对渐行渐远的老夫老妻。<a href="images/misc/park.png" target="_blank">照片</a></p><br/><br>
+按下快门，镜头停留在一对渐行渐远的老夫老妻。<a href="images/misc/park.webp" target="_blank">照片</a></p><br/><br>
 
 <div class="clear"></div>
 
