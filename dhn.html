@@ -24,16 +24,7 @@
 
 <style>
 html {scroll-behavior: smooth;}
-
-.inner-content p, .inner-content li {
-	line-height: 180%;
-	font-weight: 400;
-	font-size: 17px;
-}
-
-a:hover {color: #8000ff;
-text-decoration: none;
-}
+a:hover {color: #8000ff; text-decoration: none;}
 </style>
 
 <body id="grad">
@@ -47,10 +38,10 @@ text-decoration: none;
 		    <a href="#">收藏 <i class="down"></i></a>
 			<ul class="hidden">
 				<li><a href="dhn.html">杜韩念</a></li>
-				<li><a href="#">歌词簿</a></li>
+			<!--<li><a href="#">歌词簿</a></li>
 				<li><a href="#">魔术方块</a></li>
 				<li><a href="#">问题与答案</a></li>
-				<!--<li><a href="#">股票</a></li>-->
+				<li><a href="#">股票</a></li>-->
 			</ul>
 		</li>
 		<li><a href="#">名言</a></li>
@@ -59,56 +50,54 @@ text-decoration: none;
 
 <!-- *** slideshow.css -->
 <div class="slideshow-container">
-	<div class="mySlides fade nature">
+	<div class="mySlides fade slidesInterval">
 	  <div class="numbertext">1 / 2</div>
 	  <img src="images/slides/writing.png" alt="杜韩念">
 	</div>
 	
-	<div class="mySlides fade nature">
+	<div class="mySlides fade slidesInterval">
 	  <div class="numbertext">1 / 2</div>
 	  <img src="images/slides/writing.png">
 	</div>
 </div>
-
-<script>
-myShow = w3.slideshow(".nature", 8000);
-</script>
-
-<!-- *** -->
 <br/>
+
+<!-- *** slideshow.js -->
+<script>
+myShow = w3.slideshow(".slidesInterval", 5000);
+</script>
+<!-- *** -->
+
+
 <div class="inner-content">
 <h3 style="text-align:center; cursor:pointer" class="jumpTo" onclick="openNav()"><strong>目录</strong></h3>
 </br><hr/></br>
 
 <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="font-size:30px">&times;</a>
-
-  <button class="dropdown-btn">2022</button>
-  <div class="dropdown-container">
-  	<small><a href="#动物园" class="w3-animate-zoom">动物园</a></small>
-	<br/>
-  </div>
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="font-size:30px">&times;</a>
+	<button class="dropdown-btn">2022</button>
+		<div class="dropdown-container">
+			<small><a href="#动物园" class="w3-animate-zoom">动物园</a></small>
+			<br/>
+		</div>
   
-  <button class="dropdown-btn">2019</button>
-  <div class="dropdown-container">
-  	<small><a href="#没有答案的朋友" class="w3-animate-zoom">没有答案的朋友</a></small>
-	<br/>
-  </div>
- </div> 
- 
+	<button class="dropdown-btn">2019</button>
+		<div class="dropdown-container">
+			<small><a href="#没有答案的朋友" class="w3-animate-zoom">没有答案的朋友</a></small>
+			<br/>
+		</div>
+</div> 
 <script src="scripts/scrolltop.js"></script>
-<script src="scripts/dropdown.js"></script>
-<script src="scripts/sidenavigation.js"></script>
 
 <div class="topPosition">
-<button onclick="topFunction()" id="myBtn" title="回到现在">别迷恋过去</button>
+	<button onclick="topFunction()" id="myBtn" title="回到现在">别迷恋过去</button>
 </div>
+
 
 <!-- CONTENT START HERE -->
 <p style="margin-top:0.6em;";>以下文章采自 <strong><a href="https://www.facebook.com/people/杜韩念/100044264867892/" target="_blank">杜韩念脸书</strong></a></br></br></p>
 <h3><strong id="动物园">动物园</strong></h3>
 <p style="margin-top:0.6em; font-size:1rem; color:#999">27/11/2022</p><br>
-
 <p style="margin-top:0">
 几天前，载女儿放学回家，在车上聊起写作文。</br></br>
 
@@ -174,13 +163,12 @@ myShow = w3.slideshow(".nature", 8000);
 
 <br/></br><hr/></br>
 <div class="clear"></div>
-
 <!-- *** -->
+
 
 <p style="margin-top:0.6em;";>以下文章采自 <strong><a href="https://www.facebook.com/people/杜韩念/100044264867892/" target="_blank">杜韩念脸书</strong></a></br></br></p>
 <h3><strong id="没有答案的朋友">没有答案的朋友</strong></h3>
 <p style="margin-top:0.6em; font-size:1rem; color:#999">03/10/2019</p><br>
-
 <p style="margin-top:0">
 你好，机缘巧合之下我读到了你的电子书。谢谢你的文字让我了解了很多，学到了很多。也遗憾为什么不早点接触到，那或许能避免自己婚姻的问题…容许我抒发一下，也期望能得到你的回复。<br><br>
 
@@ -236,8 +224,10 @@ myShow = w3.slideshow(".nature", 8000);
 <div class="clear"></div>
 
 <br/><hr/>
-<!-- *** -->
 </div>
+<!-- *** -->
+
+
 <div class="footer">
 	<div class="foot">
 		<ul>
