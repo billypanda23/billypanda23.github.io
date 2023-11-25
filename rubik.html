@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JFFFC06D9Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JFFFC06D9Q');
+</script>
+
+<title>魔术方块</title>
+<link rel="icon" type="image/ico" href="images/favicon.ico">
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/slideshow.css" />
+<link rel="stylesheet" href="css/dropdown.css" />
+<script src="scripts/w3.js"></script>
+<script src="scripts/slideshow.js"></script>
+</head>
+
+<style>
+html {scroll-behavior: smooth;}
+a:hover {color: #8000ff; text-decoration: none;}
+</style>
+
+<body id="grad">
+<div class="nav">
+	<a href="index.html"><img id="logo" src="images/logo.webp" alt="logo"></a>	
+	<input id="show-menu" type="checkbox" role="button">
+	<label for="show-menu" class="show-menu" id="example">菜单</label>
+	<ul id="menu">		
+		<li><a href="index.html">主页</a></li>
+		<li>
+		    <a href="#">收藏 <i class="down"></i></a>
+			<ul class="hidden">
+				<li><a href="dhn.html">杜韩念</a></li>
+				<li><a href="rubik.html">魔术方块</a></li>
+			<!--<li><a href="#">歌词簿</a></li>
+				<li><a href="#">问题与答案</a></li>
+				<li><a href="#">股票</a></li>-->
+			</ul>
+		</li>
+		<li><a href="#">名言</a></li>
+	</ul>
+</div>	
+
+<!-- *** slideshow.css -->
+<div class="slideshow-container">
+	<div class="mySlides fade slidesInterval">
+	  <div class="numbertext">1 / 2</div>
+	  <img src="images/slides/notation.png">
+	</div>
+	
+	<div class="mySlides fade slidesInterval">
+	  <div class="numbertext">1 / 2</div>
+	  <img src="images/slides/notation.png">
+	</div>
+</div>
+<br/>
+
+<!-- *** slideshow.js -->
+<script>
+myShow = w3.slideshow(".slidesInterval", 5000);
+</script>
+<!-- *** -->
+
+
+<div class="inner-content">
+
+<!-- CONTENT START HERE -->
+<p style="margin-top:0.6em;";>以下方程式采自 <strong><a href="https://www.davidguo.idv.tw/Cube/" target="_blank">郭君逸 David Guo</strong></a></br></br></p>
+
+<strong>3x3 Permutation Last Layer (PLL) Practice</strong><br><br>
+<img src="images/rubik/pll.png" style="max-width:100%;">
+
+<br/></br><hr/></br>
+
+<strong>2x2 Orientation Last Layer (OLL)</strong><br><br>
+<img src="images/rubik/oll 2x2.png" style="max-width:100%;">
+
+<!-- *** -->
+
+<br/></br><hr/></br>
+<div class="clear"></div>
+
+<br/><hr/>
+</div>
+<!-- *** -->
+
+
+<div class="footer">
+	<div class="foot">
+		<ul>
+		  <li><a href="index.html">主页</a></li>
+		  <li><a href="#">收藏</a></li>
+		  <li><a href="#">名言</a></li>
+		</ul>
+	</div>
+		<div class="copyright">
+		<p>© 2023 by Billy Panda</p>
+		</div>
+</div>
+</body>
+</html>
