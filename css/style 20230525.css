@@ -1,8 +1,8 @@
 *{margin: 0; padding: 0;}
 
 ol, li{list-style-position: inside;}
-.inner-content li {text-align:left; margin-left: 20px; line-height: 1.8;}
-.inner-content p{margin-top:30px; line-height: 1.8;}
+.inner-content li {text-align:left; margin-left: 20px; line-height: 180%;}
+.inner-content p{margin-top:30px; line-height: 180%;}
 .inner-content .heading{margin-top:0;}
 
 address{font-style:normal;}
