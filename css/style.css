@@ -92,7 +92,7 @@ body{
 .nav .show-menu {
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 1.17em;
+	font-size: 17px;
 	color: black;
 	background: #fff;
 	text-align: center;
@@ -317,7 +317,7 @@ h1, h2, h3{font-weight:normal}
 
 /* Four classes below are used for fonts */
 .googleAudioWide{font-family: "Audiowide", sans-serif;}
-.googleCaveat{font-family: 'Caveat', cursive; font-size: 23px;}
+.googleCaveat{font-family: 'Caveat', cursive; font-size: 17px;}
 
 /*https://transfonter.org - Online @font-face generator — Transfonter
 Upload the ttf and convert to font-face, it will generate a set of css.
