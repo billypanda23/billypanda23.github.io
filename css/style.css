@@ -118,6 +118,8 @@ input[type=checkbox]:checked ~ #menu{
 
 @media screen and (max-width : 1000px){
 	
+	body{font-size:15px;}
+	
 	/*Make dropdown links appear inline*/
 	.nav ul {
 		position: static;
@@ -263,7 +265,7 @@ h1, h2, h3{font-weight:normal}
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 17px;
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -338,4 +340,4 @@ Upload the ttf and convert to font-face, it will generate a set of css.
     font-style: normal;
     font-display: swap;
 }
-.YRDZST{font-family: 'YRDZST-Semibold'; font-size: 15px; font-weight: 600;}
+.YRDZST{font-family: 'YRDZST-Semibold'; font-size: 17px; font-weight: 600;}
