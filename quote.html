@@ -227,18 +227,22 @@ myShow = w3.slideshow(".slidesInterval", 5000);
 </div>
 <!-- *** -->
 
-<button onclick="document.getElementById('id01').style.display='block'" class="buttonGeneral buttonBtoW centerbuttonBtoW googleCaveat">Fight Fight Fight ~ Donald Trump</button>	
+<button onclick="document.getElementById('id01').style.display='block'; settime1()" class="buttonGeneral buttonBtoW centerbuttonBtoW googleCaveat">Fight Fight Fight ~ Donald Trump</button>	
 <div id="id01" class="w3-modal w3-animate-opacity" onclick="this.style.display='none'">
 	<img src="images/modal/trump1.webp" style="max-width:70%;" class="w3-display-middle w3-card-4" alt="Let me get my shoes on. Wait wait wait wait">
 </div>
 
+<audio controls id="myaudio1" src="audio/Negaraku.mp3"></audio>
 
+<script type="text/javascript">  
+    function settime1(){
+      var audio= document.getElementById("myaudio1");
+      audio.currentTime=0;
+      audio.play();
+	  document.getElementById('jj').style.display='block'      
+    }
+</script>
 
-
-
-
-<br/></br><hr/></br>
-<div class="clear"></div>
 
 <br/><hr/>
 </div>
