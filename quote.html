@@ -3,17 +3,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JFFFC06D9Q"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-JFFFC06D9Q');
-</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-<script> 
+<script>
 $(document).ready(function(){
   $("#flip").click(function(){
     $("#panel").slideToggle("slow");
@@ -55,6 +46,12 @@ $(document).ready(function(){
     $("#panel7").slideToggle("slow");
   });
 });
+
+$(document).ready(function(){
+  $("#flip8").click(function(){
+    $("#panel8").slideToggle("slow");
+  });
+});
 </script>
 
 <title>人生哲学</title>
@@ -70,23 +67,23 @@ $(document).ready(function(){
 html {scroll-behavior: smooth;}
 a:hover {color: #8000ff; text-decoration: none;}
 
-#panel, #panel2, #panel3, #panel4, #panel5, #panel6, #panel7 {
+#panel, #panel2, #panel3, #panel4, #panel5, #panel6, #panel7, #panel8 {
   text-align: center;
   border: solid 1px #c3c3c3;
 }
 
-#flip, #flip2, #flip3, #flip4, #flip5, #flip6, #flip7 {
+#flip, #flip2, #flip3, #flip4, #flip5, #flip6, #flip7, #flip8 {
   padding-top: 15px;
   text-align: center;
   Xbackground-color: #2B1BB7;
   border: solid 1px white;
 }
 
-#flip:hover, #flip2:hover, #flip3:hover, #flip4:hover, #flip5:hover, #flip6:hover, #flip7:hover {
+#flip:hover, #flip2:hover, #flip3:hover, #flip4:hover, #flip5:hover, #flip6:hover, #flip7:hover, #flip8:hover {
   background-color: #F4F752;
 }
 
-#panel, #panel2, #panel3, #panel4, #panel5, #panel6, #panel7 {
+#panel, #panel2, #panel3, #panel4, #panel5, #panel6, #panel7, #panel8 {
   padding: 10px;
   display: none;
 }
@@ -105,6 +102,7 @@ a:hover {color: #8000ff; text-decoration: none;}
 				<li><a href="dhn.html">杜韩念</a></li>
 				<li><a href="bgt.html">别怪她</a></li>
 				<li><a href="rubik.html">魔术方块</a></li>
+				<li><a href="book.html">读过的书</a></li>
 			<!--<li><a href="#">歌词簿</a></li>
 				<li><a href="#">问题与答案</a></li>
 				<li><a href="#">股票</a></li>-->
@@ -114,8 +112,27 @@ a:hover {color: #8000ff; text-decoration: none;}
 	</ul>
 </div>	
 
-<div class="inner-content">
+<!-- *** slideshow.css -->
+<div class="slideshow-container">
+	<div class="mySlides fade slidesInterval">
+	  <div class="numbertext">1 / 2</div>
+	  <img src="images/slides/maverick.webp">
+	</div>
+	
+	<div class="mySlides fade slidesInterval">
+	  <div class="numbertext">1 / 2</div>
+	  <img src="images/slides/maverick.webp">
+	</div>
+</div>
+<br/>
 
+<!-- *** slideshow.js -->
+<script>
+myShow = w3.slideshow(".slidesInterval", 5000);
+</script>
+<!-- *** -->
+
+<div class="inner-content">
 <!-- CONTENT START HERE -->
 <div class="abcd" id="flip"><b>Your time is limited</b><br><span style="font-size:15px; color:#999">Steve Jobs</span><br><br></div>
 <div class="bgX" id="panel">
@@ -169,6 +186,14 @@ a:hover {color: #8000ff; text-decoration: none;}
 <div class="bg" id="panel7">
 <video width="350" controls>
 <source src="video/jimrohn2.mp4" type="video/mp4">
+</video>
+</div>
+<!-- *** -->
+
+<div id="flip8"><b>Figure it out</b><br><span style="font-size:15px; color:#999">Tom Cruise</span><br><br></div>
+<div class="bg" id="panel8">
+<video width="350" controls>
+<source src="video/tom1.mp4" type="video/mp4">
 </video>
 </div>
 <!-- *** -->

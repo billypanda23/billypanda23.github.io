@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="zh">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<title>读过的书</title>
+<link rel="icon" type="image/ico" href="images/favicon.ico">
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/slideshow.css" />
+<link rel="stylesheet" href="css/dropdown.css" />
+<script src="scripts/w3.js"></script>
+<script src="scripts/slideshow.js"></script>
+</head>
+
+<style>
+html {scroll-behavior: smooth;}
+a:hover {color: #8000ff; text-decoration: none;}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 8px;
+  background-color: white
+}
+</style>
+
+<body id="grad">
+<div class="nav">
+	<a href="index.html"><img id="logo" src="images/logo.webp" alt="logo"></a>	
+	<input id="show-menu" type="checkbox" role="button">
+	<label for="show-menu" class="show-menu" id="example">菜单</label>
+	<ul id="menu">		
+		<li><a href="index.html">主页</a></li>
+		<li>
+		    <a href="#">收藏 <i class="down"></i></a>
+			<ul class="hidden">
+				<li><a href="dhn.html">杜韩念</a></li>
+				<li><a href="bgt.html">别怪她</a></li>
+				<li><a href="rubik.html">魔术方块</a></li>
+				<li><a href="book.html">读过的书</a></li>
+			<!--<li><a href="#">歌词簿</a></li>
+
+				<li><a href="#">问题与答案</a></li>
+				<li><a href="#">股票</a></li>-->
+			</ul>
+		</li>
+		<li><a href="quote.html">人生哲学</a></li>
+	</ul>
+</div>	
+
+<!-- *** slideshow.css -->
+<div class="slideshow-container">
+	<div class="mySlides fade slidesInterval">
+	  <div class="numbertext">1 / 2</div>
+	  <img src="images/slides/book.webp">
+	</div>
+	
+	<div class="mySlides fade slidesInterval">
+	  <div class="numbertext">1 / 2</div>
+	  <img src="images/slides/book.webp">
+	</div>
+</div>
+<br/>
+
+<!-- *** slideshow.js -->
+<script>
+myShow = w3.slideshow(".slidesInterval", 5000);
+</script>
+<!-- *** -->
+
+<div class="inner-content">
+<div class="topPosition">
+	<button onclick="topFunction()" id="myBtn" title="回到现在">别迷恋过去</button>
+</div>
+
+<!-- CONTENT START HERE -->
+<table>
+  <tr>
+    <th colspan="2" style="background-color: #FFD580">2024 (JUL - DEC)</th>
+  </tr>
+  <tr>
+    <th style="width: 50%"; >书名</th>
+    <th>作者</th>
+  </tr>
+  <tr>
+    <td>魔法蛋糕店</td>
+    <td>张小娴</td>
+  </tr>  
+  <tr>
+    <td>亲密心事</td>
+    <td>张小娴</td>
+  </tr>  
+  <tr>
+    <td>PRICE ACTION TRADING SECRETS</td>
+    <td>RAYNER TEO</td>
+  </tr>
+  </table>
+</br>
+
+<table>
+  <tr>
+    <th colspan="2" style="background-color: #FFD580">2024 (JAN - JUN)</th>
+  </tr>
+  <tr>
+    <th style="width: 50%"; >书名</th>
+    <th>作者</th>
+  </tr>
+  <tr>
+    <td>我的不完美</td>
+    <td>刘若英</td>
+  </tr>
+  <tr>
+    <td>马云 - 我的人生哲学</td>
+    <td>张燕 编著</td>
+  </tr>  
+  <tr>
+    <td>HOW TO THINK LIKE STEVE JOBS</td>
+    <td>DANIEL SMITH</td>
+  </tr>
+  <tr>
+    <td>华杉讲透孙子兵法</td>
+    <td>华杉</td>
+  </tr>  
+  <tr>
+    <td>人性的弱点</td>
+    <td>戴尔. 卡耐基 DALE CARNEGIE（鲍荣 笨苹果 翻译）</td>
+  </tr>
+  <tr>
+    <td>三亿传奇 - 寿险天王的成功艺术</td>
+    <td>彭建伟 著 （高琇芬，黄敬平 撰文）</td>
+  </tr>    
+  <tr>
+    <td>I LOVE $TOCKS</td>
+    <td>PAULINE YONG</td>
+  </tr>
+  <tr>
+    <td>LIMITLESS MIND</td>
+    <td>JO BOALER</td>
+  </tr>  
+  <tr>
+    <td>量价概率论</td>
+    <td>LAWRENCE LAW</td>
+  </tr>
+  <tr>
+    <td>THE SOULFUL MONEY MANUAL</td>
+    <td>DR. RICHARD MITZ</td>
+  </tr>  
+  <tr>
+    <td>JESSE LIVERMORE - WORLD'S GREATEST STOCK TRADER</td>
+    <td>RICHARD SMITTEN</td>
+  </tr>
+  <tr>
+    <td>思念里的流浪狗</td>
+    <td>张小娴</td>
+  </tr>    
+  <tr>
+    <td>流浪的终点</td>
+    <td>藤井树 aka 吴子云</td>
+  </tr>
+  <tr>
+    <td>炒股的智慧</td>
+    <td>陈江挺</td>
+  </tr>  
+</table>
+</br>
+
+<table>
+  <tr>
+    <th colspan="2" style="background-color: #FFD580">2023 (JUL - DEC)</th>
+  </tr>
+  <tr>
+    <th style="width: 50%"; >书名</th>
+    <th>作者</th>
+  </tr>
+  <tr>
+    <td>背影</td>
+    <td>三毛（哈尔滨出版社）</td>
+  </tr>
+  <tr>
+    <td>十三岁后，我不再是我</td>
+    <td>山本润 JUN YAMAMOTO（游韵馨 翻译）</td>
+  </tr>  
+  <tr>
+    <td>爱自己多一点</td>
+    <td>杜韩念</td>
+  </tr>
+  <tr>
+    <td>SURROUNDED BY BAD BOSSES</td>
+    <td>THOMAS ERIKSON</td>
+  </tr>  
+  <tr>
+    <td>HOW TO TRADE IN STOCKS</td>
+    <td>RICHARD SMITTEN</td>
+  </tr>
+  <tr>
+    <td>在对的时间，做对的事</td>
+    <td>俞敏洪</td>
+  </tr>    
+  <tr>
+    <td>WHEN BAD THINGS HAPPEN TO GOOD MARRIAGES</td>
+    <td>DRS. LES & LESLIE PARROTT</td>
+  </tr>
+  <tr>
+    <td>I, STEVE (STEVE JOBS IN HIS OWN WORDS)</td>
+    <td>EDITED BY GEORGE BEAHM</td>
+  </tr>  
+</table>
+</br>
+
+<table>
+  <tr>
+    <th colspan="2" style="background-color: #FFD580">2023 (JAN - JUN)</th>
+  </tr>
+  <tr>
+    <th style="width: 50%"; >书名</th>
+    <th>作者</th>
+  </tr>
+  <tr>
+    <td>马云的说话之道</td>
+    <td>张笑恒</td>
+  </tr>
+  <tr>
+    <td>富爸爸 （富孩子，聪明孩子）</td>
+    <td>电子工业出版社（王丽洁 翻译）</td>
+  </tr>  
+  <tr>
+    <td>TWELVE PILLARS</td>
+    <td>JIM ROHN & CHRIS WIDENER</td>
+  </tr>
+  <tr>
+    <td>SURROUNDED BY IDIOTS</td>
+    <td>THOMAS ERIKSON</td>
+  </tr>  
+  <tr>
+    <td>小米创业思维 - 雷军首部商业思考著作</td>
+    <td>中信出版集团（雷军 口述，徐洁云 整理）</td>
+  </tr>
+  <tr>
+    <td>一生的财富 - 洛克菲勒写给儿子的 38 封信</td>
+    <td>经济科学出版社（马芳芳 翻译）</td>
+  </tr>  
+  <tr>
+    <td>想法对了，钱就进来了</td>
+    <td>樊恩. 萨普 VAN K. THARP（罗耀宗 翻译）</td>
+  </tr>
+  <tr>
+    <td>学会成长</td>
+    <td>粥左罗</td>
+  </tr>  
+  <tr>
+    <td>学姐</td>
+    <td>梁汉良</td>
+  </tr>
+  <tr>
+    <td>READY FOR RESPONSIBILITY</td>
+    <td>DR. BOB BARNES</td>
+  </tr>  
+  <tr>
+    <td>SURROUNDED BY PSYCHOPATHS</td>
+    <td>THOMAS ERIKSON</td>
+  </tr>
+  <tr>
+    <td>认知天性</td>
+    <td>PETER, HENRY & MARK（邓峰 翻译）</td>
+  </tr>  
+  <tr>
+    <td>THE SECRET</td>
+    <td>RHONDA BYRNE</td>
+  </tr>
+</table>
+
+<br/></br><hr/></br>
+<div class="clear"></div>
+<!-- *** -->
+
+
+
+<br/><hr/>
+</div>
+<!-- *** -->
+
+
+<div class="footer">
+	<div class="foot">
+		<ul>
+		  <li><a href="index.html">主页</a></li>
+		  <li><a href="#">收藏</a></li>
+		  <li><a href="quote.html">人生哲学</a></li>
+		</ul>
+	</div>
+		<div class="copyright">
+		<p>© 2024 by Billy Panda</p>
+		</div>
+</div>
+</body>
+</html>
