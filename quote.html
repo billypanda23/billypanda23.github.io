@@ -58,6 +58,12 @@ $(document).ready(function(){
     $("#panel9").slideToggle("slow");
   });
 });
+
+$(document).ready(function(){
+  $("#flip10").click(function(){
+    $("#panel10").slideToggle("slow");
+  });
+});
 </script>
 
 <title>人生哲学</title>
@@ -65,6 +71,7 @@ $(document).ready(function(){
 <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="css/slideshow.css" />
 <link rel="stylesheet" href="css/dropdown.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat">
 <script src="scripts/w3.js"></script>
 <script src="scripts/slideshow.js"></script>
 </head>
@@ -73,23 +80,23 @@ $(document).ready(function(){
 html {scroll-behavior: smooth;}
 a:hover {color: #8000ff; text-decoration: none;}
 
-#panel, #panel2, #panel3, #panel4, #panel5, #panel6, #panel7, #panel8, #panel9 {
+#panel, #panel2, #panel3, #panel4, #panel5, #panel6, #panel7, #panel8, #panel9, #panel10 {
   text-align: center;
   border: solid 1px #c3c3c3;
 }
 
-#flip, #flip2, #flip3, #flip4, #flip5, #flip6, #flip7, #flip8, #flip9 {
+#flip, #flip2, #flip3, #flip4, #flip5, #flip6, #flip7, #flip8, #flip9, #flip10 {
   padding-top: 15px;
   text-align: center;
   Xbackground-color: #2B1BB7;
   border: solid 1px white;
 }
 
-#flip:hover, #flip2:hover, #flip3:hover, #flip4:hover, #flip5:hover, #flip6:hover, #flip7:hover, #flip8:hover, #flip9:hover {
+#flip:hover, #flip2:hover, #flip3:hover, #flip4:hover, #flip5:hover, #flip6:hover, #flip7:hover, #flip8:hover, #flip9:hover, #flip10:hover {
   background-color: #F4F752;
 }
 
-#panel, #panel2, #panel3, #panel4, #panel5, #panel6, #panel7, #panel8, #panel9 {
+#panel, #panel2, #panel3, #panel4, #panel5, #panel6, #panel7, #panel8, #panel9, #panel10 {
   padding: 10px;
   display: none;
 }
@@ -211,6 +218,23 @@ myShow = w3.slideshow(".slidesInterval", 5000);
 </video>
 </div>
 <!-- *** -->
+
+<div id="flip10"><b>What did he say</b><br><span style="font-size:15px; color:#999">Donald Trump Jr.</span><br><br></div>
+<div class="bg" id="panel10">
+<video width="350" controls>
+<source src="video/trumpJr1.mp4" type="video/mp4">
+</video>
+</div>
+<!-- *** -->
+
+<button onclick="document.getElementById('id01').style.display='block'" class="buttonGeneral buttonBtoW centerbuttonBtoW googleCaveat">Fight Fight Fight ~ Donald Trump</button>	
+<div id="id01" class="w3-modal w3-animate-opacity" onclick="this.style.display='none'">
+	<img src="images/modal/trump.webp" style="max-width:100%;" class="w3-display-middle w3-card-4" alt="Let me get my shoes on. Wait wait wait wait">
+</div>
+
+
+
+
 
 
 <br/></br><hr/></br>
