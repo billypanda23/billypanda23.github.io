@@ -88,6 +88,12 @@ $(document).ready(function(){
     $("#panel14").slideToggle("slow");
   });
 });
+
+$(document).ready(function(){
+  $("#flip15").click(function(){
+    $("#panel15").slideToggle("slow");
+  });
+});
 </script>
 
 <title>人生哲学</title>
@@ -104,23 +110,23 @@ $(document).ready(function(){
 html {scroll-behavior: smooth;}
 a:hover {color: #8000ff; text-decoration: none;}
 
-#panel, #panel2, #panel3, #panel4, #panel5, #panel6, #panel7, #panel8, #panel9, #panel10, #panel11, #panel12, #panel13, #panel14 {
+#panel, #panel2, #panel3, #panel4, #panel5, #panel6, #panel7, #panel8, #panel9, #panel10, #panel11, #panel12, #panel13, #panel14, #panel15 {
   text-align: center;
   border: solid 1px #c3c3c3;
 }
 
-#flip, #flip2, #flip3, #flip4, #flip5, #flip6, #flip7, #flip8, #flip9, #flip10, #flip11, #flip12, #flip13, #flip14 {
+#flip, #flip2, #flip3, #flip4, #flip5, #flip6, #flip7, #flip8, #flip9, #flip10, #flip11, #flip12, #flip13, #flip14, #flip15 {
   padding-top: 15px;
   text-align: center;
   Xbackground-color: #2B1BB7;
   border: solid 1px white;
 }
 
-#flip:hover, #flip2:hover, #flip3:hover, #flip4:hover, #flip5:hover, #flip6:hover, #flip7:hover, #flip8:hover, #flip9:hover, #flip10:hover, #flip11:hover, #flip12:hover, #flip13:hover, #flip14:hover {
+#flip:hover, #flip2:hover, #flip3:hover, #flip4:hover, #flip5:hover, #flip6:hover, #flip7:hover, #flip8:hover, #flip9:hover, #flip10:hover, #flip11:hover, #flip12:hover, #flip13:hover, #flip14:hover, #flip15:hover {
   background-color: #F4F752;
 }
 
-#panel, #panel2, #panel3, #panel4, #panel5, #panel6, #panel7, #panel8, #panel9, #panel10, #panel11, #panel12, #panel13, #panel14 {
+#panel, #panel2, #panel3, #panel4, #panel5, #panel6, #panel7, #panel8, #panel9, #panel10, #panel11, #panel12, #panel13, #panel14, #panel15 {
   padding: 10px;
   display: none;
 }
@@ -301,7 +307,13 @@ myShow = w3.slideshow(".slidesInterval", 5000);
 </div>
 <!-- *** -->
 
-
+<div id="flip15"><b>One step at a time</b><br><span style="font-size:15px; color:#999">Tom Cruise</span><br><br></div>
+<div class="bg" id="panel15">
+<video width="350" controls>
+<source src="video/tom3.mp4" type="video/mp4">
+</video>
+</div>
+<!-- *** -->
 
 
 
